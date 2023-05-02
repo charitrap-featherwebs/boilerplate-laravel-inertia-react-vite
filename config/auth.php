@@ -112,4 +112,7 @@ return [
 
     'password_timeout' => 10800,
 
+
+    'token_expiration' => env("TOKEN_EXPIRATION", 525600) // 525600 minutes = 1 year
+
 ];
